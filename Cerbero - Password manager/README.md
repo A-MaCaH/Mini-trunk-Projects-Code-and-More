@@ -1,3 +1,6 @@
+#     Cerbero - Password manager
+Gestor de contraseñas de línea de comandos (CLI), te permite almacenar y recuperar de forma segura todas tus credenciales en tu propia computadora. Piensa en él como tu "caja fuerte digital y personal"
+
 ## 🔐 Características de Seguridad
 
 **Criptografía robusta:**
