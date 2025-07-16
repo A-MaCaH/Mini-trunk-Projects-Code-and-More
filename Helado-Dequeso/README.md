@@ -1,28 +1,26 @@
-# DebugLogger Toolkit
+# Helado de queso - Toolkit
 
 Herramienta autocontenida para manejo de mensajes, depuración y análisis de datos y modelos en proyectos de Machine Learning y Deep Learning.
 
 ## Descripción
 
-`DebugLogger` es una clase de Python diseñada para facilitar el logging, la inspección de variables, la visualización de datos y el análisis de modelos de redes neuronales (PyTorch y Keras/TensorFlow). Es fácil de integrar y portable a cualquier proyecto.
+`Helado-Dequeso` es una clase de Python diseñada para facilitar el logging, la inspección de variables, la visualización de datos y el análisis de modelos de redes neuronales (PyTorch y Keras/TensorFlow). Es fácil de integrar y portable a cualquier proyecto.
 
 ## Instalación de dependencias
 
 Instala las dependencias necesarias con:
 
 ```bash
-pip install numpy pandas matplotlib torch tensorflow
+pip install numpy pandas matplotlib
 ```
-
-Puedes omitir `torch` o `tensorflow` si no usas esos frameworks.
 
 ## Uso básico
 
-Copia el archivo `debug_logger.py` a tu proyecto e impórtalo:
+Copia el archivo `helado-dequeso.py` a tu proyecto e impórtalo:
 
 ```python
-from debug_logger import DebugLogger
-logger = DebugLogger(active=True)
+from helado-dequeso import HeladoDeQueso
+logger = HeladoDeQueso(active=True)
 ```
 
 ## Métodos principales y ejemplos
@@ -84,6 +82,5 @@ logger.display_model_weights(model)
 
 ## Notas
 - Si inicializas con `active=False`, ningún método producirá salida.
-- El toolkit es extensible y puede adaptarse a otros frameworks.
 
 ---
