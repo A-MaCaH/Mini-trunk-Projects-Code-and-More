@@ -87,5 +87,3 @@ logger.display_model_weights(model)
 - El toolkit es extensible y puede adaptarse a otros frameworks.
 
 ---
-
-**Autor:** Desarrollador experto en Python y Deep Learning 
